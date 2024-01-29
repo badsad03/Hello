@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title> Grip Learning </title>
+    </head>
+    <body>
+        <style>
+            .div1{
+                display: grid;
+                grid-template-columns: 100px 100px ;
+            }
+        </style>
+
+    <div class="div1" >
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: lightcoral;">div 2</div>
+    </div>
+
+
+    <div style="display: grid; 
+    grid-template-columns: 100px 1fr;
+     margin-top: 10px;">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: lightcoral;">div 2</div>
+    </div>
+
+
+    <div style="display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+     margin-top: 10px; column-gap: 20px; row-gap: 30px;">
+        <div style="background-color: lightblue; height: 200px;">div 1</div>
+        <div style="background-color: lightcoral; height: 200px;">div 2</div>
+        <div style="background-color: rgb(255, 199, 199); height: 200px; ">div 3</div>
+        <div style="background-color: rgb(255, 199, 199); height: 200px; ">div 4</div>
+        <div style="background-color: lightblue; height: 200px;">div 5</div>
+        <div style="background-color: lightcoral; height: 200px;">div 6</div>
+    
+    </div>
+    </body>
+</html>
